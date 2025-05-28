@@ -1,0 +1,51 @@
+.formWrapper {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+  }
+  
+  .formRow {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .input {
+    padding: 8px;
+    font-size: 1rem;
+  }
+  
+  .button {
+    padding: 10px;
+    background-color: #ff5693;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .button:hover {
+    background-color: #e04c83;
+  }  
+
+  @media (max-width: 768px) {
+    .formWrapper {
+      padding: 20px;
+    }
+  
+    .form {
+      width: 100%;
+    }
+  }
